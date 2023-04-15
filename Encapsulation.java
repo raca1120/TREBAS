@@ -81,6 +81,6 @@ public class Encapsulation {
        payment pay2=new payment();
        pay2.setbanka(937254);
        pay2.setbname("RBC"); 
-       System.out.println("Employee no. "+emp1.getempno()+"\tEmployee Name: "+emp1.getname() + "\tEmployee salary:"+ emp1.getsalary()+"\tBank account:"+pay2.getbankac()+"\tBank name:"+pay2.getbname());
+       System.out.println("Employee no. "+emp2.getempno()+"\tEmployee Name: "+emp2.getname() + "\tEmployee salary:"+ emp2.getsalary()+"\tBank account:"+pay2.getbankac()+"\tBank name:"+pay2.getbname());
    }
 }
